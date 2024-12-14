@@ -1,0 +1,14 @@
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menuChoices
+{
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
