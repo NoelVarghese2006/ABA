@@ -1,10 +1,19 @@
-const InfoBox = () => {
+"use client";
+
+import React from "react";
+
+const InfoBox = ({ title, items }) => {
     return (
       <div>
-          <h2 id="infobox">Sundays</h2>
+          <h2 id="infobox">{ title }</h2>
           <ul>
-            <li>10:00 am - 11:45 am</li>
-            <li>Breaking of Bread & Word Ministry</li>
+            {
+              items.map((item, index) => (
+                <React.Fragment key={index}>
+                  <li>{item.time}</li>
+                  <li>{item.meeting}</li>  
+                </React.Fragment>              
+            ))}
           </ul>
       </div>
     )

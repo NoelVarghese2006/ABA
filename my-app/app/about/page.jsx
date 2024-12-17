@@ -1,4 +1,5 @@
 import Banner from '@components/banner'
+import '@styles/about.css'
 
 const About = () => {
   return (

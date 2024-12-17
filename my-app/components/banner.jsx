@@ -1,4 +1,5 @@
 import '@styles/banner.css'
+import {Image} from "@nextui-org/image";
 
 const Banner = () => {
   return (
