@@ -5,7 +5,7 @@ import React from "react";
 const InfoBox = ({ title, items }) => {
     return (
       <div>
-          <h2 id="infobox">{ title }</h2>
+          <h1 id="infobox">{ title }</h1>
           <ul>
             {
               items.map((item, index) => (

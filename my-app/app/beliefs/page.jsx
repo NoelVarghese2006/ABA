@@ -4,7 +4,6 @@ import Banner from '@components/banner'
 const Beliefs = () => {
   return (
     <section>
-      <Banner />
       <h1>We Believe That...</h1>
       <ul>
         <li>That the Bible is the inspired Word of God and is the final authority for all matters of faith, life, and conduct. (2 Timothy 3:16-17, 2 Peter 1:21, John 17:17)</li>

@@ -14,6 +14,16 @@
     top: 0;
     z-index: -1;
 }
+.greetings
+{
+    margin-top: 15vh;
+}
+.greetings h1{
+    font-size: 500%;
+}
+.greetings p {
+    font-size: 300%;
+}
 h1
 {
     text-align: center;
@@ -26,4 +36,8 @@ p
 html, body
 {
     margin: 0;
+}
+body
+{
+    background-color: #f3edc8;
 }

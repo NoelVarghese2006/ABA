@@ -38,7 +38,6 @@ const Meetings = () => {
 
   return (
     <section>
-      <Banner />
       <h1>Weekly Meetings</h1>
       <div className='meetings'>
         <InfoBox title={'Sunday'} items={sunMeetings}/>
