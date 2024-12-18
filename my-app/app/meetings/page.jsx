@@ -38,7 +38,7 @@ const Meetings = () => {
 
   return (
     <section>
-      <h1>Weekly Meetings</h1>
+      <h1 id="meetings-title">Weekly Meetings</h1>
       <div className='meetings'>
         <InfoBox title={'Sunday'} items={sunMeetings}/>
         <InfoBox title={'Wednesday'} items={wedMeetings}/>

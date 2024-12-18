@@ -8,3 +8,6 @@ https://unsplash.com/photos/a-body-of-water-with-a-boat-in-the-distance-yc-zDaI3
 
 https://unsplash.com/photos/body-of-water-dYO_5KOMEkA
 
+Color Pallete: 
+F3EDC8
+7D0A0A
