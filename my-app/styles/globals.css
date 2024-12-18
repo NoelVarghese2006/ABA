@@ -1,6 +1,18 @@
 *
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /*background-color: #293241;
+    color: white;*/
+}
+.bg-image
+{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 0;
+    top: 0;
+    z-index: -1;
 }
 h1
 {
@@ -8,6 +20,10 @@ h1
 }
 p
 {
-    border: 2px solid red;
+    
     text-align: center;
+}
+html, body
+{
+    margin: 0;
 }

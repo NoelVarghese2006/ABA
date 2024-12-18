@@ -21,13 +21,13 @@ export default function Menu() {
   return (
     <header className="navbar">
       <div className="logo">
-        <Link href="/"><h1>ABA</h1></Link>
+        <Link href="/" className="link"><h1>ABA</h1></Link>
       </div>
       <div className="menuChoices">
-        <Link href="/about">About</Link>
-        <Link href="/meetings">Meetings</Link>
-        <Link href="/beliefs">We Believe</Link>
-        <Link href="/contact">Contact Us</Link>
+        <Link href="/about" className="link">About</Link>
+        <Link href="/meetings" className="link">Meetings</Link>
+        <Link href="/beliefs" className="link">We Believe</Link>
+        <Link href="/contact" className="link">Contact Us</Link>
       </div>
     </header>
   );

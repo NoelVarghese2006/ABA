@@ -1,16 +1,20 @@
 .banner
 {
-    font-size: 150%;
+    font-size: 200%;
+    font-weight: bold;
     text-align: center;
-    color: white;
+    color: black;
     width: auto;
-    height: 30vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('/dallas.jpg');
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 2px solid pink
+}
+h1.banner
+{
+    background-color: transparent !important;
+}
+p.banner
+{
+    background-color: transparent !important;
 }
